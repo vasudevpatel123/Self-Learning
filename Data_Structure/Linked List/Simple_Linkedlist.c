@@ -23,7 +23,7 @@ NODE insert_front(int item,NODE first){
 int display(NODE first){
     NODE temp;
     if(first==NULL){
-        printf("List is empty");
+        printf("List is empty\n");
         return 0;
     }
     printf("Elements of the list are : ");
